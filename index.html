@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="uk">
+<hea<!DOCTYPE html>
+d>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Приклади</title>
+    <style>
+        /* CSS Синтаксис */
+        .syntax-example {
+            color: blue;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        /* CSS Селектори */
+        #selector-example p {
+            color: green;
+        }
+        .selector-example {
+            font-weight: bold;
+        }
+
+        /* CSS Кольори */
+        .color-example {
+            color: rgb(255, 0, 0);
+            background-color: #00FF00;
+        }
+
+        /* CSS Фони */
+        .background-example {
+            background: url('https://via.placeholder.com/150') no-repeat center;
+            background-size: cover;
+            height: 150px;
+        }
+
+        /* CSS Межі */
+        .border-example {
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        /* CSS Поля */
+        .margin-example {
+            margin: 20px;
+        }
+
+        /* CSS Padding */
+        .padding-example {
+            padding: 20px;
+        }
+
+        /* CSS Висота, ширина */
+        .dimension-example {
+            width: 200px;
+            height: 100px;
+            max-width: 300px;
+            border: 1px solid black;
+        }
+
+        /* CSS Блочна модель */
+        .boxmodel-example {
+            margin: 10px;
+            padding: 10px;
+            border: 2px solid red;
+        }
+
+        /* CSS Іконки */
+        .icon-example {
+            font-family: 'Arial';
+        }
+
+        /* CSS Посилання */
+        .link-example a {
+            color: blue;
+            text-decoration: none;
+        }
+        .link-example a:hover {
+            text-decoration: underline;
+        }
+
+        /* CSS Списки */
+        .list-example ul {
+            list-style-type: square;
+        }
+
+        /* CSS Таблиці */
+        .table-example table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+        .table-example th, .table-example td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        /* CSS Анімація */
+        .animation-example {
+            width: 100px;
+            height: 100px;
+            background: red;
+            animation: exampleAnimation 3s infinite;
+        }
+        @keyframes exampleAnimation {
+            from {background: red;}
+            to {background: yellow;}
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Приклади</h1>
+
+    <h2>1. CSS Синтаксис</h2>
+    <p class="syntax-example">Це приклад CSS синтаксису</p>
+
+    <h2>2. CSS Селектори</h2>
+    <div id="selector-example">
+        <p class="selector-example">CSS селектори працюють!</p>
+    </div>
+
+    <h2>3. CSS Кольори</h2>
+    <p class="color-example">Текст із кольорами RGB та HEX</p>
+
+    <h2>4. CSS Фони</h2>
+    <div class="background-example"></div>
+
+    <h2>5. CSS Межі</h2>
+    <div class="border-example">Це блок із межами</div>
+
+    <h2>6. CSS Поля</h2>
+    <div class="margin-example">Цей блок має зовнішні відступи</div>
+
+    <h2>7. CSS Padding</h2>
+    <div class="padding-example">Цей блок має внутрішні відступи</div>
+
+    <h2>8. CSS Висота, Ширина</h2>
+    <div class="dimension-example">Встановлені висота та ширина</div>
+
+    <h2>9. CSS Блочна модель</h2>
+    <div class="boxmodel-example">Це блок із блочною моделлю</div>
+
+    <h2>10. CSS Іконки</h2>
+    <p class="icon-example">🔔 Іконка приклад</p>
+
+    <h2>11. CSS Посилання</h2>
+    <div class="link-example">
+        <a href="#">Це посилання</a>
+    </div>
+
+    <h2>12. CSS Списки</h2>
+    <div class="list-example">
+        <ul>
+            <li>Елемент 1</li>
+            <li>Елемент 2</li>
+        </ul>
+    </div>
+
+    <h2>13. CSS Таблиці</h2>
+    <div class="table-example">
+        <table>
+            <tr>
+                <th>Заголовок 1</th>
+                <th>Заголовок 2</th>
+            </tr>
+            <tr>
+                <td>Дані 1</td>
+                <td>Дані 2</td>
+            </tr>
+        </table>
+    </div>
+
+    <h2>14. CSS Анімація</h2>
+    <div class="animation-example"></div>
+
+</body>
+</html>
